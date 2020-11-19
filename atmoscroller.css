@@ -83,6 +83,7 @@ h1{
 	background: linear-gradient(179deg, rgba(0,0,0,1) 0%, rgba(2,0,36,1) 99.9%, rgba(9,9,121,1) 99.95%, rgba(199,239,247,1) 100%);
 	border-bottom: 1px rgba(255,255,255,0.7) solid;
 }
+
 .layer{
 	position: relative;
 	display: block;
@@ -91,7 +92,7 @@ h1{
 	border-top: 1px rgba(255,255,255,0.7) solid;
 }
 
-.boundry{
+.boundry, .band{
 	position: absolute;
 	display: block;
 	width: 100%;
@@ -113,6 +114,7 @@ h1{
 	background-size: auto 100%;
 	background-repeat: no-repeat;
 	background-position: center center;
+	z-index: 100;
 }
 
 
@@ -166,10 +168,235 @@ h1{
 	color: rgba(255,156,56,1);
 }
 
+#ozone{ /* 15-35km */
+	bottom: 150px;
+	height: 200px;
+	height: 100px;
+	background: rgb(183,183,185);
+	background: linear-gradient(180deg, rgba(183,183,185,0.2539390756302521) 0%, rgba(183,183,185,1) 49%, rgba(204,205,205,0.2147233893557423) 100%);
+}
+
+#moon {/* 405400km apogee  1737.4 km mean radius */
+	top: -17274px;
+	left: -8000px;
+	height: 17374px;
+	width: 17374px;
+
+	/*top: -1727px;
+	left: -0%;
+	height: 1737px;
+	width: 1737px;*/
+
+	/*border-radius: 50%;*/
+	/*background-color: rgba(125,125,125,0.5);*/
+	background-color: white;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/LRO_WAC_Nearside_Mosaic.jpg/1920px-LRO_WAC_Nearside_Mosaic.jpg);
+	background-position: bottom center;
+	/*background-size: 100% auto;*/
+	z-index: 1;
+}
+
+
+
+
 /* space craft */
+.spacecraft{
+	position: absolute;
+	display: inline-block;
+	color: #333;
+	/*padding: 0.5rem;*/
+	border: 1px #333 solid;
+	border-radius: 50%;
+	background-color: rgba(145,145,145,0.9);
+	z-index: 100;
+}
+
+
+#gps{/* 20180km */
+	bottom: 201800px;
+	left:10%;
+	height: 9px;
+	width: 9px;
+	/*background-color: rgba(125,125,125,0.5);*/
+	/*background-color: transparent;
+	background-image: url();*/
+}
+
+#sputnik{/* 939km */
+	bottom: 9390px;
+	left:20%;
+	height: 3px;
+	width: 3px;
+	/*background-color: rgba(125,125,125,0.5);*/
+	/*background-color: transparent;
+	background-image: url();*/
+}
+
+#shuttle { /* 220-620km  56x24m */
+	bottom: 6200px;
+	left:30%;
+	height: 14px;
+	width: 24px;
+	/*background-color: rgba(125,125,125,0.5);*/
+	/*background-color: transparent;
+	background-image: url();*/
+}
+
+#skylab{/* 441km */
+	bottom: 4410px;
+	left:40%;
+	height: 5px;
+	width: 11px;
+	/*background-color: rgba(125,125,125,0.5);*/
+	/*background-color: transparent;
+	background-image: url();*/
+}
+
+#iss{ /* 400km */
+	bottom: 4000px;
+	left:50%;
+	height: 36px;
+	width: 100%;
+	width: 54px;
+	/*background-color: rgba(125,125,125,0.5);*/
+	/*background-color: transparent;
+	background-image: url();*/
+}
+
+#mir{ /* 374km */
+	bottom: 3740px;
+	left:60%;
+	height: 16px;
+	width: 12px;
+	/*background-color: rgba(125,125,125,0.5);*/
+	/*background-color: transparent;
+	background-image: url();*/
+}
+
+#ma9{/* 267m*/
+	bottom: 2670px;
+	left:70%;
+	height: 4px;
+	width: 6px;
+	/*background-color: rgba(125,125,125,0.5);*/
+	/*background-color: transparent;
+	background-image: url();*/
+}
+
+
+#mr3{/* 188m*/
+	bottom: 0px;
+	left:80%;
+	height: 4px;
+	width: 6px;
+	/*background-color: rgba(125,125,125,0.5);*/
+	/*background-color: transparent;
+	background-image: url();*/
+}
+
+
 
 
 /* aircraft */
+.aircraft{
+	position: absolute;
+	display: inline-block;
+	color: #333;
+	/*padding: 0.5rem;*/
+	border: 1px #333 solid;
+	border-radius: 50%;
+	background-color: rgba(245,245,245,0.9);
+	z-index: 100;
+}
+
+#SR-71{/* 25,900m */
+	bottom: 25900px;
+	left:80%;
+	height: 3px;
+	width: 7px;
+	background-color: rgba(10,10,10,0.9);
+	/*background-color: transparent;
+	background-image: url();*/
+}
+
+#U-2{/* 24000m*/
+	bottom: 2400px;
+	left:80%;
+	height: 2px;
+	width: 5px;
+	background-color: rgba(25,25,25,0.9);
+	/*background-color: transparent;
+	background-image: url();*/
+}
+#b747{/* 10668m */
+	bottom: 1066px;
+	left:80%;
+	height: 3px;
+	width: 9px;
+	/*background-color: rgba(125,125,125,0.5);*/
+	/*background-color: transparent;
+	background-image: url();*/
+}
+
+#A380{/* 10664m */
+	bottom: 1066px;
+	left:80%;
+	height: 3px;
+	width: 9px;
+	/*background-color: rgba(125,125,125,0.5);*/
+	/*background-color: transparent;
+	background-image: url();*/
+}
+#chinook{/* 6100m*/
+	bottom: 610px;
+	left:80%;
+	height: 3px;
+	width: 6px;
+	/*background-color: rgba(125,125,125,0.5);*/
+	/*background-color: transparent;
+	background-image: url();*/
+}
+
+#huges{/* 5700m*/
+	bottom: 570px;
+	left:80%;
+	height: 2px;
+	width: 3px;
+	/*background-color: rgba(125,125,125,0.5);*/
+	/*background-color: transparent;
+	background-image: url();*/
+}
+#cesna{/* 5400m*/
+	bottom: 540px;
+	left:80%;
+	height: 2px;
+	width: 4px;
+	/*background-color: rgba(125,125,125,0.5);*/
+	/*background-color: transparent;
+	background-image: url();*/
+}
+
+#baloon{/* 304m-900m m*/
+	bottom: 90px;
+	left:80%;
+	height: 5px;
+	width: 4px;
+	/*background-color: rgba(125,125,125,0.5);*/
+	/*background-color: transparent;
+	background-image: url();*/
+}
+#zeplin{/* 610m*/
+	bottom: 6px;
+	left:80%;
+	height: 3px;
+	width: 7px;
+	/*background-color: rgba(125,125,125,0.5);*/
+	/*background-color: transparent;
+	background-image: url();*/
+}
+
+
+
 
 
 
@@ -301,7 +528,7 @@ h1{
 }
 
 /* Tooltip text */
-.feature .tooltiptext {
+.object .tooltiptext {
   visibility: hidden;
   width: 120px;
   background-color: black;
@@ -317,6 +544,6 @@ h1{
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
-.feature:hover .tooltiptext {
+.object:hover .tooltiptext {
   visibility: visible;
 }
