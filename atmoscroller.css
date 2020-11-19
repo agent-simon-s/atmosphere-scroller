@@ -80,7 +80,7 @@ h1{
 	height: 1900000px;
 	background: rgb(2,0,36);
 	/*background: linear-gradient(179deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 99.9%, rgba(199,239,247,1) 100%);*/
-	background: linear-gradient(179deg, rgba(0,0,0,1) 0%, rgba(2,0,36,1) 99.9%, rgba(9,9,121,1) 99.95%, rgba(199,239,247,1) 100%);
+	background: linear-gradient(179deg, rgba(0,0,0,1) 0%, rgba(2,0,36,1) 99.8%, rgba(9,9,121,1) 99.95%, rgba(199,239,247,1) 100%);
 	border-bottom: 1px rgba(255,255,255,0.7) solid;
 }
 
@@ -284,7 +284,7 @@ h1{
 }
 
 
-#mr3{/* 188m*/
+#mr3{/* 188km*/
 	bottom: 0px;
 	left:80%;
 	height: 4px;
@@ -310,28 +310,28 @@ h1{
 }
 
 #SR-71{/* 25,900m */
-	bottom: 25900px;
-	left:80%;
+	bottom: 259px;
+	left:45%;
 	height: 3px;
-	width: 7px;
-	background-color: rgba(10,10,10,0.9);
+	width: 8px;
+	background-color: rgba(1,1,1,1);
 	/*background-color: transparent;
 	background-image: url();*/
 }
 
 #U-2{/* 24000m*/
-	bottom: 2400px;
-	left:80%;
+	bottom: 240px;
+	left:51%;
 	height: 2px;
-	width: 5px;
+	width: 6px;
 	background-color: rgba(25,25,25,0.9);
 	/*background-color: transparent;
 	background-image: url();*/
 }
 #b747{/* 10668m */
-	bottom: 1066px;
-	left:80%;
-	height: 3px;
+	bottom: 106px;
+	left:45%;
+	height: 2px;
 	width: 9px;
 	/*background-color: rgba(125,125,125,0.5);*/
 	/*background-color: transparent;
@@ -339,8 +339,8 @@ h1{
 }
 
 #A380{/* 10664m */
-	bottom: 1066px;
-	left:80%;
+	bottom: 106px;
+	left:55%;
 	height: 3px;
 	width: 9px;
 	/*background-color: rgba(125,125,125,0.5);*/
@@ -348,8 +348,8 @@ h1{
 	background-image: url();*/
 }
 #chinook{/* 6100m*/
-	bottom: 610px;
-	left:80%;
+	bottom: 61px;
+	left:45%;
 	height: 3px;
 	width: 6px;
 	/*background-color: rgba(125,125,125,0.5);*/
@@ -358,8 +358,8 @@ h1{
 }
 
 #huges{/* 5700m*/
-	bottom: 570px;
-	left:80%;
+	bottom: 57px;
+	left:45%;
 	height: 2px;
 	width: 3px;
 	/*background-color: rgba(125,125,125,0.5);*/
@@ -367,8 +367,8 @@ h1{
 	background-image: url();*/
 }
 #cesna{/* 5400m*/
-	bottom: 540px;
-	left:80%;
+	bottom: 54px;
+	left:45%;
 	height: 2px;
 	width: 4px;
 	/*background-color: rgba(125,125,125,0.5);*/
@@ -377,8 +377,8 @@ h1{
 }
 
 #baloon{/* 304m-900m m*/
-	bottom: 90px;
-	left:80%;
+	bottom: 9px;
+	left:45%;
 	height: 5px;
 	width: 4px;
 	/*background-color: rgba(125,125,125,0.5);*/
@@ -387,7 +387,7 @@ h1{
 }
 #zeplin{/* 610m*/
 	bottom: 6px;
-	left:80%;
+	left:45%;
 	height: 3px;
 	width: 7px;
 	/*background-color: rgba(125,125,125,0.5);*/
