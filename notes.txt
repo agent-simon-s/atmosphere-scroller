@@ -32,6 +32,7 @@ https://en.wikipedia.org/wiki/Puerto_Rico_Trench
    https://en.wikipedia.org/wiki/Milwaukee_Deep  8,376 m
 
 
+<<<<<<< HEAD
 
 spacecraft
 gemini
@@ -126,3 +127,10 @@ low x - 2,000 m
 
 aurora borealis
 https://en.wikipedia.org/wiki/Aurora 80-640kn
+=======
+https://en.wikipedia.org/wiki/Photic_zone sunlit 0 - 200m
+https://en.wikipedia.org/wiki/Mesopelagic_zone  aka twiligh zone 200m-1k
+https://en.wikipedia.org/wiki/Bathyal_zone aka midnight 1k - 4k
+https://en.wikipedia.org/wiki/Abyssal_zone 4000m
+   https://en.wikipedia.org/wiki/Hadal_zone 6km
+>>>>>>> 24bee8f9c679626fc6c04dec6dfceb58ff6c27cf
