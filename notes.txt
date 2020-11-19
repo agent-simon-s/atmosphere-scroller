@@ -19,9 +19,17 @@ https://en.wikipedia.org/wiki/List_of_highest_mountains_on_Earth
 
 hole
 https://en.wikipedia.org/wiki/Kola_Superdeep_Borehole
+12,262m
 
 lakes
 https://en.wikipedia.org/wiki/List_of_lakes_by_depth
+
+Water column
+https://en.wikipedia.org/wiki/Photic_zone sunlit 0 - 200m
+https://en.wikipedia.org/wiki/Mesopelagic_zone  aka twiligh zone 200m-1k
+https://en.wikipedia.org/wiki/Bathyal_zone aka midnight 1k - 4k
+https://en.wikipedia.org/wiki/Abyssal_zone 4000m
+   https://en.wikipedia.org/wiki/Hadal_zone 6km
 
 https://en.wikipedia.org/wiki/Mariana_Trench  10,971m
 https://en.wikipedia.org/wiki/Tonga_Trench#Horizon_Deep 10,800m
@@ -32,10 +40,8 @@ https://en.wikipedia.org/wiki/Puerto_Rico_Trench
    https://en.wikipedia.org/wiki/Milwaukee_Deep  8,376 m
 
 
-<<<<<<< HEAD
-
 spacecraft
-gemini
+apollo
  https://en.wikipedia.org/wiki/Apollo_program
 
  gps
@@ -73,16 +79,26 @@ https://en.wikipedia.org/wiki/Project_Gemini
 
 aircraft
 
+ X-15
+ https://en.wikipedia.org/wiki/North_American_X-15 
+ 15ml x 6.8w x4m h
+ 107.8 km // 108,000 m 
+
  SR-71
- https://en.wikipedia.org/wiki/Lockheed_SR-71_Blackbird  sr71 25,900 meters 32.6l x 17m span
+ https://en.wikipedia.org/wiki/Lockheed_SR-71_Blackbird  sr71 
+ 25,900 meters sc:26,000 m
+ 32.6l x 17m span
 
  u-2 
  https://en.wikipedia.org/wiki/Lockheed_U-2
+ 19.2L x 31w x 4.8
  21,000 m
  24,000 m
 
 747-800 
- https://en.wikipedia.org/wiki/Boeing_747  76.2m L x68.4m w alt:30,000 to 40,000 ft = 10668m
+ https://en.wikipedia.org/wiki/Boeing_747  
+ 76.2m L x68.4m w 
+ alt:30,000 to 40,000 ft = 10668m
 
  A380
  https://en.wikipedia.org/wiki/Airbus_A380
@@ -92,7 +108,6 @@ Chinook
 https://en.wikipedia.org/wiki/Boeing_CH-47_Chinook
 6,100 m
 
-
 huges 500
 https://en.wikipedia.org/wiki/MD_Helicopters_MD_500
 5,700 m
@@ -101,7 +116,6 @@ cesna
 https://en.wikipedia.org/wiki/Cessna
 https://en.wikipedia.org/wiki/Cessna_175_Skylark
 5,400 m
-
 
 baloon
 1k-3k ft  304m-900m
@@ -127,10 +141,4 @@ low x - 2,000 m
 
 aurora borealis
 https://en.wikipedia.org/wiki/Aurora 80-640kn
-=======
-https://en.wikipedia.org/wiki/Photic_zone sunlit 0 - 200m
-https://en.wikipedia.org/wiki/Mesopelagic_zone  aka twiligh zone 200m-1k
-https://en.wikipedia.org/wiki/Bathyal_zone aka midnight 1k - 4k
-https://en.wikipedia.org/wiki/Abyssal_zone 4000m
-   https://en.wikipedia.org/wiki/Hadal_zone 6km
->>>>>>> 24bee8f9c679626fc6c04dec6dfceb58ff6c27cf
+
