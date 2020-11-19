@@ -1,3 +1,11 @@
+
+moon 
+405400km apogee
+1737.4 km mean radius
+
+
+
+
 skyscrapers
 http://www.skyscrapercenter.com/building/great-pyramid-of-giza/19078
 http://www.skyscrapercenter.com/building/willis-tower/169
@@ -22,3 +30,99 @@ https://en.wikipedia.org/wiki/Molloy_Deep 5,550m
 https://en.wikipedia.org/wiki/Sunda_Trench 7,192 m
 https://en.wikipedia.org/wiki/Puerto_Rico_Trench
    https://en.wikipedia.org/wiki/Milwaukee_Deep  8,376 m
+
+
+
+spacecraft
+gemini
+ https://en.wikipedia.org/wiki/Apollo_program
+
+ gps
+ https://en.wikipedia.org/wiki/Global_Positioning_System
+ 20180km
+
+
+gemini11
+https://en.wikipedia.org/wiki/Project_Gemini
+1,369.0km
+
+ sputnick
+ https://en.wikipedia.org/wiki/Sputnik_1
+ 939km
+
+ shuttle 56x24m span  220-620km
+
+ skylab 
+ https://en.wikipedia.org/wiki/Skylab
+ 21m x 17m x 11m @ 441km
+
+ iss
+ https://en.wikipedia.org/wiki/International_Space_Station iss 109x73 @400km
+
+ mir
+ https://en.wikipedia.org/wiki/Mir
+ 19m x 31m x 25m
+ 374km
+
+
+ mercury
+ https://en.wikipedia.org/wiki/Project_Mercury#Flights
+ mr3=188m - ma9 = 267m
+
+
+aircraft
+
+ SR-71
+ https://en.wikipedia.org/wiki/Lockheed_SR-71_Blackbird  sr71 25,900 meters 32.6l x 17m span
+
+ u-2 
+ https://en.wikipedia.org/wiki/Lockheed_U-2
+ 21,000 m
+ 24,000 m
+
+747-800 
+ https://en.wikipedia.org/wiki/Boeing_747  76.2m L x68.4m w alt:30,000 to 40,000 ft = 10668m
+
+ A380
+ https://en.wikipedia.org/wiki/Airbus_A380
+
+
+Chinook
+https://en.wikipedia.org/wiki/Boeing_CH-47_Chinook
+6,100 m
+
+
+huges 500
+https://en.wikipedia.org/wiki/MD_Helicopters_MD_500
+5,700 m
+
+cesna
+https://en.wikipedia.org/wiki/Cessna
+https://en.wikipedia.org/wiki/Cessna_175_Skylark
+5,400 m
+
+
+baloon
+1k-3k ft  304m-900m
+https://en.wikipedia.org/wiki/Hot_air_balloon
+
+zeplin
+https://en.wikipedia.org/wiki/Zeppelin
+610m
+
+
+   jetstream 
+
+   ozone
+   https://en.wikipedia.org/wiki/Ozone_layer
+   15-35kn
+
+weather
+clouds 
+https://en.wikipedia.org/wiki/Cloud#Levels_and_genera
+high 3,000 to 7,600 m
+Mid-level  2,000 m - 4000m
+low x - 2,000 m
+
+aurora borealis
+https://en.wikipedia.org/wiki/Aurora 80-640kn
