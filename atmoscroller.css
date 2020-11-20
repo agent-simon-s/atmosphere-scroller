@@ -294,30 +294,57 @@ background: linear-gradient(180deg, rgba(7,213,247,0) 0%, rgba(15,140,246,0.2) 3
 	z-index: 100;
 }
 
+#GSO{ /* 35,785km */
+	bottom: 357850px;
+	left:75%;
+	height: 4px;
+	width: 9px;
+}
 
-#gps{/* 20180km */
+#MEO{ /* 24000km ???? */
+	bottom: 240000px;
+	left:50%;
+	height: 4px;
+	width: 9px;
+}
+
+#galileo{ /* 23,222km */
+	bottom: 232220px;
+	left:66%;
+	height: 4px;
+	width: 9px;
+}
+
+#gps{ /* 20180km */
 	bottom: 201800px;
-	left:10%;
-	height: 9px;
+	left:33%;
+	height: 4px;
 	width: 9px;
 	/*background-color: rgba(125,125,125,0.5);*/
 	/*background-color: transparent;
 	background-image: url();*/
 }
 
-#glonass{/* 20180km */
-	bottom: 201800px;
-	left:10%;
-	height: 9px;
+#glonass{/* 19,130km */
+	bottom: 191300px;
+	left:25%;
+	height: 4px;
 	width: 9px;
 	/*background-color: rgba(125,125,125,0.5);*/
 	/*background-color: transparent;
 	background-image: url(https://lh3.googleusercontent.com/proxy/gymnkgk9zg0noFJpEjTsprtHtRoP8mMbyMjJ3WNs-M_U1fYwMhn3RqWBqkVF2Ju4ox5cr9-BINxbtVqJRCYzS0i8kUWJAlRpWoGSGMGdVGtbnm3kcAlg5ME3wzf3nTVVV4pk0eqtiPesHA_lvLHpn4hrdWYCdgdDcg);*/
 }
 
+#irridium{ /* 781km */
+	bottom: 7810px;
+	left:20%;
+	height: 4px;
+	width: 9px;
+}
+
 #sputnik{/* 939km */
 	bottom: 9390px;
-	left:20%;
+	left:18%;
 	height: 3px;
 	width: 3px;
 	/*background-color: rgba(125,125,125,0.5);*/
