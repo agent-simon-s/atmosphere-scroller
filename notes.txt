@@ -25,6 +25,52 @@ https://en.wikipedia.org/wiki/Van_Allen_radiation_belt
 inner 1,000 km (620 mi) to 12,000 km
 outter 13,000 to 60,000 kilometres
 
+Magnetosphere
+https://en.wikipedia.org/wiki/Magnetosphere
+
+meteors
+https://en.wikipedia.org/wiki/Meteoroid#Meteor
+~ 100 km
+
+Aurorae
+https://en.wikipedia.org/wiki/Aurora
+exo/thermo
+
+clouds
+https://en.wikipedia.org/wiki/Cloud#/media/File:Cloud_types_en.svg
+
+Noctilucent
+https://en.wikipedia.org/wiki/Noctilucent_cloud
+
+Lenticular
+https://en.wikipedia.org/wiki/Lenticular_cloud
+@12,000 m
+
+Cumulonimbus
+https://en.wikipedia.org/wiki/Cumulonimbus_cloud
+500-16,000m
+12,000m ht
+several k w
+
+Cumulus
+https://en.wikipedia.org/wiki/Cumulus_cloud
+200–2,000 m
+
+Cirrus
+https://en.wikipedia.org/wiki/Cirrus_cloud
+5,000 and 13,700 m
+
+Altocumulus
+https://en.wikipedia.org/wiki/Altocumulus_cloud
+2,000–7,000 m
+
+AltoStratus
+https://en.wikipedia.org/wiki/Altostratus_cloud
+2,000–7,000 m
+
+Stratus
+https://en.wikipedia.org/wiki/Stratus_cloud
+0-2,000 m
 
 skyscrapers
 http://www.skyscrapercenter.com/building/great-pyramid-of-giza/19078
@@ -80,6 +126,10 @@ HEO
 
 
 spacecraft
+Satellite
+https://en.wikipedia.org/wiki/Satellite
+https://www.intelligence-airbusds.com/files/pmedia/public/r54519_9_constellation-imagery.jpg
+
 apollo
  https://en.wikipedia.org/wiki/Apollo_program
 
@@ -113,6 +163,7 @@ gemini11
  @781km
 
  Hubble
+ https://cdn.mos.cms.futurecdn.net/sQ9nPiXN7fscGoM5XPntf7.jpg
  13.2 m × 4.2 m
  @540km
 
@@ -157,6 +208,10 @@ aircraft
  19.2L x 31w x 4.8
  21,000 m
  24,000 m
+
+concorde
+61m x 25m x 12m
+18,300 m
 
 747-800 
  https://en.wikipedia.org/wiki/Boeing_747  
