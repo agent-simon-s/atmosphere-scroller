@@ -38,6 +38,11 @@ h1{
 	text-align: center;
 	letter-spacing: 0.15rem;
 }
+h1,h2,h3,h4,h5{
+	display: block;
+	margin: 0rem 0rem;
+}
+
 #sticky-tab{
 	position: fixed;
 	display: block;
@@ -55,29 +60,32 @@ h1{
 	text-align: center;
 	box-sizing: border-box;
 }
+
 #sticky-tab h2 {
 	margin: 0;
 	font-size: 1.2rem;
 	line-height: 2rem;
 }
-#earth {
+
+#earth { /* crust / lithossphere 0-80km */
 	position: relative;
 	bottom: 0;
 	display: block;
 	margin: 0 auto;
 	width: 100%;
-	height: 120px;
+	height: 800px;
 	background: rgb(4,133,3);
 	background: linear-gradient(180deg, rgba(4,133,3,1) 0%, rgba(121,101,9,1) 38%, rgba(216,217,154,1) 100%);
 	border-top: 1px rgba(7,103,1,1) solid;
 }
-#atmosphere { /* 100k */
+#atmosphere { /* 190km */
 	position: relative;
 	display: block;
 	bottom: 0;
 	margin: 0 auto;
 	width: 100%;
 	height: 1900000px;
+	height: auto;
 	background: rgb(2,0,36);
 	/*background: linear-gradient(179deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 99.9%, rgba(199,239,247,1) 100%);*/
 	background: linear-gradient(179deg, rgba(0,0,0,1) 0%, rgba(2,0,36,1) 99.8%, rgba(9,9,121,1) 99.95%, rgba(199,239,247,1) 100%);
@@ -90,13 +98,23 @@ h1{
 	width: 100%;
 	min-height: 3rem; 
 	border-top: 1px rgba(255,255,255,0.7) solid;
+	z-index: 1;
+}
+.sublayer{
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	min-height: 3rem; 
+	border-top: 1px rgba(255,255,255,0.7) solid;
+	z-index: 10;
 }
 
 .boundry, .band{
 	position: absolute;
 	display: block;
 	width: 100%;
-	min-height: 1rem;
+	min-height: 3px;
 }
 
 .object{
@@ -137,8 +155,16 @@ h1{
 	letter-spacing: 0.15rem;
 }
 
-#exo{ /*  700,000 - 190,000,000; 189,300,000m */
+
+/* atmo layers */
+#exo{ /*  700 - 190,000km; 189,300,000m */
 	height: 1893000px;
+	height: 5000px;
+}
+#exo-base{ /*  700 - 1000km; 300k / 300000m  */
+	height: 3000px;
+	bottom: 0;
+	background-color: rgba(2,0,36,0.3);
 }
 #thermo{ /* 80,000; 700,000; 620,000m */
 	height: 6200px;
@@ -154,24 +180,25 @@ h1{
 }
 
 
-
-
-
-
-
 /* boudries */
-#karman-line{ /* 100000km */
+#karman-us{ /* 100000km */
 	bottom: 200px;
 	height: 1rem;
 	background-color: rgba(155,155,155,0.1);
 	border-top: 1px rgba(255,156,56,1) solid;
 	color: rgba(255,156,56,1);
 }
-
+#karman-intl{ /* 80000km */
+	bottom: 200px;
+	height: 1rem;
+	background-color: rgba(155,155,155,0.1);
+	border-top: 1px rgba(255,156,56,0.5) solid;
+	color: rgba(255,156,56,0.5);
+}
 #ozone{ /* 15-35km */
 	bottom: 150px;
 	height: 200px;
-	height: 100px;
+	height: 3px;
 	background: rgb(183,183,185);
 	background: linear-gradient(180deg, rgba(183,183,185,0.2539390756302521) 0%, rgba(183,183,185,1) 49%, rgba(204,205,205,0.2147233893557423) 100%);
 }
@@ -222,6 +249,16 @@ h1{
 	background-image: url();*/
 }
 
+#glonass{/* 20180km */
+	bottom: 201800px;
+	left:10%;
+	height: 9px;
+	width: 9px;
+	/*background-color: rgba(125,125,125,0.5);*/
+	/*background-color: transparent;
+	background-image: url(https://lh3.googleusercontent.com/proxy/gymnkgk9zg0noFJpEjTsprtHtRoP8mMbyMjJ3WNs-M_U1fYwMhn3RqWBqkVF2Ju4ox5cr9-BINxbtVqJRCYzS0i8kUWJAlRpWoGSGMGdVGtbnm3kcAlg5ME3wzf3nTVVV4pk0eqtiPesHA_lvLHpn4hrdWYCdgdDcg);*/
+}
+
 #sputnik{/* 939km */
 	bottom: 9390px;
 	left:20%;
@@ -235,11 +272,16 @@ h1{
 #shuttle { /* 220-620km  56x24m */
 	bottom: 6200px;
 	left:30%;
-	height: 14px;
+	height: 16px;
 	width: 24px;
 	/*background-color: rgba(125,125,125,0.5);*/
-	/*background-color: transparent;
-	background-image: url();*/
+	background-color: transparent;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/STS-123_Dextre%26Kibo_ELM-PS_in_orbit_%28cropped%29.jpg/220px-STS-123_Dextre%26Kibo_ELM-PS_in_orbit_%28cropped%29.jpg);
+	background-image: url(https://greenerideal.com/wp-content/uploads/2011/06/space-shuttle.jpg);
+	background-size: 400%;
+	background-position-x: 80%;
+	background-position-y: 50%;
+	border:none;
 }
 
 #skylab{/* 441km */
@@ -248,19 +290,23 @@ h1{
 	height: 5px;
 	width: 11px;
 	/*background-color: rgba(125,125,125,0.5);*/
-	/*background-color: transparent;
-	background-image: url();*/
+	background-color: transparent;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Skylab_%28SL-4%29.jpg/1200px-Skylab_%28SL-4%29.jpg);
 }
 
 #iss{ /* 400km */
 	bottom: 4000px;
 	left:50%;
-	height: 36px;
-	width: 100%;
-	width: 54px;
+	height: 30px;
+	width: 50px;
 	/*background-color: rgba(125,125,125,0.5);*/
-	/*background-color: transparent;
-	background-image: url();*/
+	background-color: transparent;
+	background-image: url(https://freesvg.org/img/ISS_01b.png);
+	background-size: 100%;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	border-radius: 2px;
+	border:none;
 }
 
 #mir{ /* 374km */
@@ -269,8 +315,8 @@ h1{
 	height: 16px;
 	width: 12px;
 	/*background-color: rgba(125,125,125,0.5);*/
-	/*background-color: transparent;
-	background-image: url();*/
+	background-color: transparent;
+	background-image: url(https://freesvg.org/img/RP1357_p104_The_Mir_complex_as_of_June_1994.png);
 }
 
 #ma9{/* 267m*/
@@ -285,8 +331,8 @@ h1{
 
 
 #mr3{/* 188km*/
-	bottom: 0px;
-	left:80%;
+	bottom: 1880px;
+	left:90%;
 	height: 4px;
 	width: 6px;
 	/*background-color: rgba(125,125,125,0.5);*/
@@ -294,6 +340,16 @@ h1{
 	background-image: url();*/
 }
 
+#X-15{/* 107km*/
+	bottom: 1070px;
+	left:80%;
+	height: 4px;
+	width: 6px;
+	/*background-color: rgba(25,25,25,0.9)*/
+	/*background-color: rgba(125,125,125,0.5);*/
+	background-color: transparent;
+	background-image: url(https://cdn.mos.cms.futurecdn.net/33eT6HQxYv9ibb3yt3cgef-1200-80.jpg);
+}
 
 
 
@@ -309,33 +365,49 @@ h1{
 	z-index: 100;
 }
 
-#SR-71{/* 25,900m */
+#SR-71{ /* 25,900m / 25.9km */
 	bottom: 259px;
 	left:45%;
-	height: 3px;
-	width: 8px;
-	background-color: rgba(1,1,1,1);
-	/*background-color: transparent;
-	background-image: url();*/
+	height: 10px;
+	width: 10px;
+	/*background-color: rgba(1,1,1,1);*/
+	background-color: transparent;
+	background-image: url(https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/images/335424main_EC90-0047-11_full.jpg);
+	border:none;
 }
 
-#U-2{/* 24000m*/
+#U-2{ /* 24000m*/
 	bottom: 240px;
 	left:51%;
-	height: 2px;
-	width: 6px;
-	background-color: rgba(25,25,25,0.9);
-	/*background-color: transparent;
-	background-image: url();*/
+	height: 10px;
+	width: 10px;
+	/*background-color: rgba(25,25,25,0.9);*/
+	background-color: transparent;
+	background-image: url(https://static.scientificamerican.com/sciam/cache/file/6D34AE99-6FDA-419A-867D51653C15E8B6_source.jpg?);
+	border:none;
 }
+
+#concorde{ /* 18,300m*/
+	bottom: 183px;
+	left:51%;
+	height: 20px;
+	width: 20px;
+	/*background-color: rgba(245,245,245,0.9);*/
+	background-color: transparent;
+	background-image: url(https://www.bosshunting.com.au/wp-content/uploads/2020/03/concorde-02.jpg);
+	border:none;
+}
+
 #b747{/* 10668m */
 	bottom: 106px;
 	left:45%;
-	height: 2px;
-	width: 9px;
+	height: 12px;
+	width: 12px;
+	/*background-color: rgba(245,245,245,0.9);*/
 	/*background-color: rgba(125,125,125,0.5);*/
-	/*background-color: transparent;
-	background-image: url();*/
+	background-color: transparent;
+	background-image: url(https://www.lufthansagroup.com/media/images/unternehmen/flotte/lufthansa/LH_B748_l.png);
+	border:none;
 }
 
 #A380{/* 10664m */
@@ -343,15 +415,17 @@ h1{
 	left:55%;
 	height: 3px;
 	width: 9px;
-	/*background-color: rgba(125,125,125,0.5);*/
-	/*background-color: transparent;
-	background-image: url();*/
+	background-color: rgba(245,245,245,0.9);
+	background-color: rgba(125,125,125,0.5);
+	background-color: transparent;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSap4GeX0RgWekhwGJ8VwTQY_p5xYP-32a9PA&usqp=CAU);
 }
 #chinook{/* 6100m*/
 	bottom: 61px;
 	left:45%;
 	height: 3px;
 	width: 6px;
+	background-color: rgb(61,61,29,1);
 	/*background-color: rgba(125,125,125,0.5);*/
 	/*background-color: transparent;
 	background-image: url();*/
@@ -362,6 +436,7 @@ h1{
 	left:45%;
 	height: 2px;
 	width: 3px;
+	background-color: rgba(245,245,245,0.9);
 	/*background-color: rgba(125,125,125,0.5);*/
 	/*background-color: transparent;
 	background-image: url();*/
@@ -371,9 +446,10 @@ h1{
 	left:45%;
 	height: 2px;
 	width: 4px;
+	background-color: rgba(245,245,245,0.9);
 	/*background-color: rgba(125,125,125,0.5);*/
 	/*background-color: transparent;
-	background-image: url();*/
+	background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-515538188-1570802545.jpg);*/
 }
 
 #baloon{/* 304m-900m m*/
@@ -381,18 +457,24 @@ h1{
 	left:45%;
 	height: 5px;
 	width: 4px;
+	background-color: rgba(245,10,10,0.9);
 	/*background-color: rgba(125,125,125,0.5);*/
 	/*background-color: transparent;
-	background-image: url();*/
+	background-image: url(https://overtherainbowhotairballoonrides.com/wp-content/uploads/2014/06/IMGP8038.jpg);*/
 }
 #zeplin{/* 610m*/
 	bottom: 6px;
 	left:45%;
 	height: 3px;
 	width: 7px;
-	/*background-color: rgba(125,125,125,0.5);*/
+	background-color: rgba(125,125,125,0.9);
 	/*background-color: transparent;
-	background-image: url();*/
+	background-image: url(https://3iz4pu1r2cxqxc3i63gnhpmh-wpengine.netdna-ssl.com/wp-content/uploads/lz127-profile.jpg);*/
+	https://i.guim.co.uk/img/media/6383ff664549b1792a605a9f5f86e7f6edd81920/126_0_5206_3125/master/5206.jpg?width=1200&quality=85&auto=format&fit=max&s=6dc464ac46ee7cffdd61576eb2451e3c
+
+	https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/USS_Los_Angeles_moored_to_USS_Patoka%2C_1931.jpg/220px-USS_Los_Angeles_moored_to_USS_Patoka%2C_1931.jpg
+
+	https://i2.wp.com/aerostories.free.fr/appareils/compopara/akron.JPG?resize=609%2C472
 }
 
 
