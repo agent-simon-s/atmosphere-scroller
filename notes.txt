@@ -191,12 +191,17 @@ gemini11
  mr3=188m - ma9 = 267m
 
 
+
 aircraft
 
  X-15
  https://en.wikipedia.org/wiki/North_American_X-15 
  15ml x 6.8w x4m h
  107.8 km // 108,000 m 
+
+ Red Bull Stratos Felix Baumgartner.
+ https://en.wikipedia.org/wiki/Red_Bull_Stratos
+ 38,969 m // 38.8km
 
  SR-71
  https://en.wikipedia.org/wiki/Lockheed_SR-71_Blackbird  sr71 
