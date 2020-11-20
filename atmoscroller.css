@@ -544,7 +544,9 @@ background: linear-gradient(180deg, rgba(7,213,247,0) 0%, rgba(15,140,246,0.2) 3
 	https://i2.wp.com/aerostories.free.fr/appareils/compopara/akron.JPG?resize=609%2C472*/
 }
 
-/*Aurorae*/
+/* meteors */
+
+/* Aurorae */
 
 /* clouds */
 /* Noctilucent */
@@ -573,6 +575,28 @@ background: linear-gradient(180deg, rgba(7,213,247,0) 0%, rgba(15,140,246,0.2) 3
 	background: rgb(3,223,228);
 	background: linear-gradient(180deg, rgba(3,223,228,1) 0%, rgba(4,114,245,1) 32%, rgba(1,6,50,1) 100%);
 	border-radius: 0 0 50%  50%;
+}
+
+.column{
+	top:0;
+	position: relative;
+	width: 10rem;
+	text-align: right;
+}
+
+.zone{
+	position: relative;
+	display: block;
+	float: none;
+	margin: 0 0 0 auto;
+	width: 100%;
+	min-height: 3px;
+	background: none;
+}
+
+.hole{
+	background: rgb(211,215,215);
+background: linear-gradient(180deg, rgba(211,215,215,0) 0%, rgba(47,48,48,0.7287289915966386) 28%, rgba(0,8,10,0.9836309523809523) 100%);
 }
 
 #thing{ /*m*/
@@ -678,7 +702,41 @@ background: linear-gradient(180deg, rgba(7,213,247,0) 0%, rgba(15,140,246,0.2) 3
 	background-image: url(https://banner2.cleanpng.com/20180614/clw/kisspng-great-pyramid-of-giza-great-sphinx-of-giza-egyptia-egypte-5b22bda14b49b3.5606116915290034253084.jpg);
 }
 
+
+
 /* DEEP */
+#kola{ /* 12,262m*/
+	height: 122px;
+	width: 1px;
+	/*background-color: rgba(125,125,125,0.5);*/
+}
+
+#photic.water{ /* 200m */
+	height: 2px;
+	margin-left: 0rem;
+	background-color: rgba(3,223,228,1);
+}
+#mesopelagic.water{ /* 200m - 1k*/
+	height: 8px;
+	width: 90%;
+	background-color: rgba(4,114,245,1);
+}
+#bathyal.water{ /* 1k - 4k */
+	height: 30px;
+	width: 75%;
+	background-color: rgba(4,114,245,1);
+}
+#abyssal.water{ /* 4k+ */
+	height: 20px;
+	width: 50%;
+	background-color: rgba(4,114,245,1); 
+}
+#hadal.water{ /* 6km+ */
+	height: 20px;
+	width: 25%;
+	background-color: rgba(1,6,50,1);
+}
+
 #mariana{ /* Mariana_Trench 10902m*/
 	height: 109px;
 	width: 50px;
@@ -688,7 +746,9 @@ background: linear-gradient(180deg, rgba(7,213,247,0) 0%, rgba(15,140,246,0.2) 3
 /* Tooltip text */
 .band .tooltiptext,
 .boundry .tooltiptext,
-.object .tooltiptext {
+.object .tooltiptext,
+.zone .tooltiptext
+ {
   visibility: hidden;
   width: 120px;
   background-color: black;
@@ -706,6 +766,7 @@ background: linear-gradient(180deg, rgba(7,213,247,0) 0%, rgba(15,140,246,0.2) 3
 /* Show the tooltip text when you mouse over the tooltip container */
 .band:hover .tooltiptext,
 .boundry:hover .tooltiptext,
-.object:hover .tooltiptext {
+.object:hover .tooltiptext,
+.zone:hover .tooltiptext {
   visibility: visible;
 }
