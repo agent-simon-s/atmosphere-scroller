@@ -3,7 +3,27 @@ moon
 405400km apogee
 1737.4 km mean radius
 
+Atmosphere
+https://en.wikipedia.org/wiki/Atmosphere_of_Earth
+Tropopause
+StratoPause
+Mesospause
+Thermopause
+Exopause
 
+Ionosphere 50 to 1,000 km
+Magnetosphere
+
+homosphere - troposphere, stratosphere, mesosphere lower thermosphere
+heterosphere - exosphere and most of the thermosphere
+turbopause found at about 100 km
+
+planetary boundary layer PBL ABL 100-3000m
+
+Van Allen radiation belt
+https://en.wikipedia.org/wiki/Van_Allen_radiation_belt
+inner 1,000 km (620 mi) to 12,000 km
+outter 13,000 to 60,000 kilometres
 
 
 skyscrapers
@@ -21,7 +41,7 @@ hole
 https://en.wikipedia.org/wiki/Kola_Superdeep_Borehole
 12,262m
 
-lakes
+Lakes
 https://en.wikipedia.org/wiki/List_of_lakes_by_depth
 
 Water column
@@ -39,32 +59,75 @@ https://en.wikipedia.org/wiki/Sunda_Trench 7,192 m
 https://en.wikipedia.org/wiki/Puerto_Rico_Trench
    https://en.wikipedia.org/wiki/Milwaukee_Deep  8,376 m
 
+Earth
+https://en.wikipedia.org/wiki/Structure_of_Earth
+Lithosphere 0-80km
+ -Upper crust 0-10km
+ -Lower crust 10-20km
+ -LID 20-80km
+Upper mantle 35–670
+Asthenosphere 80–220
+Mesospheric mantle 220–2,890
+Outer core 2,890–5,150
+inner core  5,150–6,370
+
+
+
+LEO 2,000 km 
+MEO  2,000 km (1,200 mi) – 35,786 km
+-GSO  35,785 km above equator	 
+HEO
+
 
 spacecraft
 apollo
  https://en.wikipedia.org/wiki/Apollo_program
 
+ comunication satelites  (2000)
+ 35,785 kilometres (gso)
+
+ galileo
+ @23,222km
+
+ MEO / BeiDou / Compass BDS
+ mix of MEO &GSO
+
  gps
  https://en.wikipedia.org/wiki/Global_Positioning_System
  20180km
 
+ glonass
+ @19,130km
 
 gemini11
-https://en.wikipedia.org/wiki/Project_Gemini
-1,369.0km
+ https://en.wikipedia.org/wiki/Project_Gemini
+ 1,369.0km
 
  sputnick
  https://en.wikipedia.org/wiki/Sputnik_1
- 939km
+ @939km
 
- shuttle 56x24m span  220-620km
+
+
+ irridium
+ @781km
+
+ Hubble
+ 13.2 m × 4.2 m
+ @540km
+
+ shuttle 
+ 56x24m span  
+ @220-620km
 
  skylab 
  https://en.wikipedia.org/wiki/Skylab
- 21m x 17m x 11m @ 441km
+ 21m x 17m x 11m 
+ @ 441km
 
  iss
- https://en.wikipedia.org/wiki/International_Space_Station iss 109x73 @400km
+ https://en.wikipedia.org/wiki/International_Space_Station iss 109x73 
+ @400km
 
  mir
  https://en.wikipedia.org/wiki/Mir
