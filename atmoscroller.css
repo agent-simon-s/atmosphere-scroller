@@ -88,8 +88,12 @@ h1,h2,h3,h4,h5{
 	height: auto;
 	background: rgb(2,0,36);
 	/*background: linear-gradient(179deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 99.9%, rgba(199,239,247,1) 100%);*/
+
 	background: linear-gradient(179deg, rgba(0,0,0,1) 0%, rgba(2,0,36,1) 99.8%, rgba(9,9,121,1) 99.95%, rgba(199,239,247,1) 100%);
 	border-bottom: 1px rgba(255,255,255,0.7) solid;
+
+	/*background: linear-gradient(179deg, rgba(0,0,0,1) 0%, rgba(2,0,36,1) 90.0%, rgba(9,9,121,1) 95.0%, rgba(199,239,247,0.7) 100%);
+	border-bottom: 1px rgba(255,255,255,0.7) solid;*/
 }
 
 .layer{
@@ -135,6 +139,20 @@ h1,h2,h3,h4,h5{
 	z-index: 100;
 }
 
+.rays{
+	position: absolute;
+	top:0;
+	bottom:200px;
+	display: block;
+	width: 1rem;
+	height: auto;
+	color: #333;
+	/*padding: 0.5rem;*/
+	border: 1px #333 solid;
+	background-color: rgba(125,125,125,0.5)
+	z-index: 100;
+}
+
 
 .layer h3{
 	position: relative;
@@ -159,7 +177,7 @@ h1,h2,h3,h4,h5{
 /* atmo layers */
 #exo{ /*  700 - 190,000km; 189,300,000m */
 	height: 1893000px;
-	height: 5000px;
+	height: 201800px;
 }
 #exo-base{ /*  700 - 1000km; 300k / 300000m  */
 	height: 3000px;
@@ -181,6 +199,45 @@ h1,h2,h3,h4,h5{
 
 
 /* boudries */
+#vanallen-inner{ /* 13000 - 60000km */
+	bottom: 10000px;
+	height: 11000px;
+	height: 100px;
+	background: rgb(183,183,185);
+	background: linear-gradient(180deg, rgba(183,183,185,0.2539390756302521) 0%, rgba(183,183,185,1) 49%, rgba(204,205,205,0.2147233893557423) 100%);
+}
+
+#vanallen-inner{ /* 1000 - 12000km */
+	bottom: 10000px;
+	height: 11000px;
+	height: 100px;
+	background: rgb(183,183,185);
+	background: linear-gradient(180deg, rgba(183,183,185,0.2539390756302521) 0%, rgba(183,183,185,1) 49%, rgba(204,205,205,0.2147233893557423) 100%);
+}
+
+#ionosphere{ /* 80 to 550km */
+	bottom: 800px;
+	height: 4200px;
+	background: rgb(7,213,247);
+background: linear-gradient(180deg, rgba(7,213,247,0) 0%, rgba(15,140,246,0.2) 32%, rgba(5,176,236,0.006039915966386533) 100%);
+}
+
+#turbopause{ /* 100km */
+	bottom: 1000px;
+	height: 3px;
+	background-color: rgba(155,155,155,0.1);
+	border-top: 1px rgba(255,156,56,1) solid;
+	color: rgba(255,156,56,1);
+}
+
+#ozone{ /* 15-35km */
+	bottom: 150px;
+	height: 200px;
+	height: 3px;
+	background: rgb(183,183,185);
+	background: linear-gradient(180deg, rgba(183,183,185,0.2539390756302521) 0%, rgba(183,183,185,1) 49%, rgba(204,205,205,0.2147233893557423) 100%);
+}
+
 #karman-us{ /* 100000km */
 	bottom: 200px;
 	height: 1rem;
@@ -195,16 +252,18 @@ h1,h2,h3,h4,h5{
 	border-top: 1px rgba(255,156,56,0.5) solid;
 	color: rgba(255,156,56,0.5);
 }
-#ozone{ /* 15-35km */
-	bottom: 150px;
+#PBL{ /* 100-3000m */
+	bottom: 1000px;
 	height: 200px;
 	height: 3px;
 	background: rgb(183,183,185);
 	background: linear-gradient(180deg, rgba(183,183,185,0.2539390756302521) 0%, rgba(183,183,185,1) 49%, rgba(204,205,205,0.2147233893557423) 100%);
 }
 
+
+
 #moon {/* 405400km apogee  1737.4 km mean radius */
-	top: -17274px;
+	bottom: 4054000px;
 	left: -8000px;
 	height: 17374px;
 	width: 17374px;
@@ -222,9 +281,6 @@ h1,h2,h3,h4,h5{
 	/*background-size: 100% auto;*/
 	z-index: 1;
 }
-
-
-
 
 /* space craft */
 .spacecraft{
@@ -297,7 +353,7 @@ h1,h2,h3,h4,h5{
 #iss{ /* 400km */
 	bottom: 4000px;
 	left:50%;
-	height: 30px;
+	height: 35px;
 	width: 50px;
 	/*background-color: rgba(125,125,125,0.5);*/
 	background-color: transparent;
@@ -307,16 +363,27 @@ h1,h2,h3,h4,h5{
 	background-position-y: 50%;
 	border-radius: 2px;
 	border:none;
+
+	background-image: url(https://media.wired.com/photos/5d0015546874e00ab2efb677/master/pass/science_iss_iss056e201352.jpg);
+	background-size: 266%;
+	background-position-x: 51%;
+	background-position-y: 26%;
+	
 }
 
 #mir{ /* 374km */
 	bottom: 3740px;
 	left:60%;
-	height: 16px;
-	width: 12px;
+	height: 18px;
+	width: 18px;
 	/*background-color: rgba(125,125,125,0.5);*/
 	background-color: transparent;
 	background-image: url(https://freesvg.org/img/RP1357_p104_The_Mir_complex_as_of_June_1994.png);
+	background-size: 100%;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	border-radius: 2px;
+	border:none;
 }
 
 #ma9{/* 267m*/
@@ -470,15 +537,24 @@ h1,h2,h3,h4,h5{
 	background-color: rgba(125,125,125,0.9);
 	/*background-color: transparent;
 	background-image: url(https://3iz4pu1r2cxqxc3i63gnhpmh-wpengine.netdna-ssl.com/wp-content/uploads/lz127-profile.jpg);*/
-	https://i.guim.co.uk/img/media/6383ff664549b1792a605a9f5f86e7f6edd81920/126_0_5206_3125/master/5206.jpg?width=1200&quality=85&auto=format&fit=max&s=6dc464ac46ee7cffdd61576eb2451e3c
+/*	https://i.guim.co.uk/img/media/6383ff664549b1792a605a9f5f86e7f6edd81920/126_0_5206_3125/master/5206.jpg?width=1200&quality=85&auto=format&fit=max&s=6dc464ac46ee7cffdd61576eb2451e3c
 
 	https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/USS_Los_Angeles_moored_to_USS_Patoka%2C_1931.jpg/220px-USS_Los_Angeles_moored_to_USS_Patoka%2C_1931.jpg
 
-	https://i2.wp.com/aerostories.free.fr/appareils/compopara/akron.JPG?resize=609%2C472
+	https://i2.wp.com/aerostories.free.fr/appareils/compopara/akron.JPG?resize=609%2C472*/
 }
 
+/*Aurorae*/
 
-
+/* clouds */
+/* Noctilucent */
+/* lenticular */
+/* Cumulonimbus */
+/* Cumulus */
+/* Cirrus */
+/* Altocumulus */
+/* Altostratus */
+/* Stratus */
 
 
 
@@ -610,6 +686,8 @@ h1,h2,h3,h4,h5{
 }
 
 /* Tooltip text */
+.band .tooltiptext,
+.boundry .tooltiptext,
 .object .tooltiptext {
   visibility: hidden;
   width: 120px;
@@ -626,6 +704,8 @@ h1,h2,h3,h4,h5{
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
+.band:hover .tooltiptext,
+.boundry:hover .tooltiptext,
 .object:hover .tooltiptext {
   visibility: visible;
 }
