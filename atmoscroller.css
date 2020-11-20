@@ -434,7 +434,7 @@ background: linear-gradient(180deg, rgba(7,213,247,0) 0%, rgba(15,140,246,0.2) 3
 
 #SR-71{ /* 25,900m / 25.9km */
 	bottom: 259px;
-	left:45%;
+	left:32%;
 	height: 10px;
 	width: 10px;
 	/*background-color: rgba(1,1,1,1);*/
@@ -445,7 +445,7 @@ background: linear-gradient(180deg, rgba(7,213,247,0) 0%, rgba(15,140,246,0.2) 3
 
 #U-2{ /* 24000m*/
 	bottom: 240px;
-	left:51%;
+	left:68%;
 	height: 10px;
 	width: 10px;
 	/*background-color: rgba(25,25,25,0.9);*/
@@ -456,7 +456,7 @@ background: linear-gradient(180deg, rgba(7,213,247,0) 0%, rgba(15,140,246,0.2) 3
 
 #concorde{ /* 18,300m*/
 	bottom: 183px;
-	left:51%;
+	left:55%;
 	height: 20px;
 	width: 20px;
 	/*background-color: rgba(245,245,245,0.9);*/
@@ -467,7 +467,7 @@ background: linear-gradient(180deg, rgba(7,213,247,0) 0%, rgba(15,140,246,0.2) 3
 
 #b747{/* 10668m */
 	bottom: 106px;
-	left:45%;
+	left:30%;
 	height: 12px;
 	width: 12px;
 	/*background-color: rgba(245,245,245,0.9);*/
@@ -479,7 +479,7 @@ background: linear-gradient(180deg, rgba(7,213,247,0) 0%, rgba(15,140,246,0.2) 3
 
 #A380{/* 10664m */
 	bottom: 106px;
-	left:55%;
+	left:60%;
 	height: 3px;
 	width: 9px;
 	background-color: rgba(245,245,245,0.9);
@@ -500,7 +500,7 @@ background: linear-gradient(180deg, rgba(7,213,247,0) 0%, rgba(15,140,246,0.2) 3
 
 #huges{/* 5700m*/
 	bottom: 57px;
-	left:45%;
+	left:35%;
 	height: 2px;
 	width: 3px;
 	background-color: rgba(245,245,245,0.9);
@@ -510,7 +510,7 @@ background: linear-gradient(180deg, rgba(7,213,247,0) 0%, rgba(15,140,246,0.2) 3
 }
 #cesna{/* 5400m*/
 	bottom: 54px;
-	left:45%;
+	left:51%;
 	height: 2px;
 	width: 4px;
 	background-color: rgba(245,245,245,0.9);
@@ -521,7 +521,7 @@ background: linear-gradient(180deg, rgba(7,213,247,0) 0%, rgba(15,140,246,0.2) 3
 
 #baloon{/* 304m-900m m*/
 	bottom: 9px;
-	left:45%;
+	left:34%;
 	height: 5px;
 	width: 4px;
 	background-color: rgba(245,10,10,0.9);
@@ -531,7 +531,7 @@ background: linear-gradient(180deg, rgba(7,213,247,0) 0%, rgba(15,140,246,0.2) 3
 }
 #zeplin{/* 610m*/
 	bottom: 6px;
-	left:45%;
+	left:65%;
 	height: 3px;
 	width: 7px;
 	background-color: rgba(125,125,125,0.9);
